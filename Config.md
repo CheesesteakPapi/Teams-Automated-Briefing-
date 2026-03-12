@@ -1,9 +1,4 @@
-Tamar, here is the final approved schema in a build-ready format.
 
-This is the version I would lock as your foundation.
-It is simple enough for MVP, but structured enough to support rollups later.
-
-⸻
 
 Portfolio Data Model
 
