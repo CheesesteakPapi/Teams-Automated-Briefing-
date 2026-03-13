@@ -1,0 +1,214 @@
+Tamar, here is a Program Manager AI Meeting Kit you can use to convert one meeting transcript into all the governance artifacts your programs require (action tracker, decision log, risk register, leadership brief). This aligns well with the governance expectations around programs like ALPR where leadership, privacy, and security oversight require structured documentation and decision tracking.  ￼
+
+⸻
+
+Program Manager AI Meeting Kit
+
+Use this workflow after every meeting.
+
+Meeting Recording
+      ↓
+Transcript
+      ↓
+AI Extraction Prompt
+      ↓
+Structured Outputs
+
+Outputs produced automatically:
+
+• Meeting Notes
+• Action Tracker
+• Decision Log
+• Risk Register
+• Leadership Brief
+• Follow-Up Questions
+
+⸻
+
+Step 1 — Transcript Analysis Prompt
+
+Use this first.
+
+Act as a senior federal program manager and enterprise architect.
+
+Analyze the meeting transcript and convert it into structured program management outputs.
+
+Focus on extracting operational commitments, governance decisions, risks, and dependencies.
+
+Organize the output using the following sections.
+
+⸻
+
+EXECUTIVE SUMMARY
+Provide a concise overview of the meeting purpose and outcomes.
+
+⸻
+
+KEY DECISIONS
+List decisions made during the meeting.
+
+Include:
+Decision
+Decision Owner
+Rationale
+Impact
+
+⸻
+
+ACTION ITEMS
+Create a table with the following columns:
+
+Action Item
+Owner
+Priority
+Deadline
+Dependencies
+
+⸻
+
+RISKS AND BLOCKERS
+
+For each risk include:
+Risk description
+Impact
+Likelihood
+Mitigation strategy
+
+⸻
+
+OPEN QUESTIONS
+
+List unresolved questions requiring follow-up.
+
+⸻
+
+KEY FACTS AND INFORMATION
+
+Extract important facts including:
+technologies
+systems
+policy references
+metrics
+timelines
+
+⸻
+
+STAKEHOLDERS
+
+List teams, agencies, or individuals referenced.
+
+⸻
+
+MEETING NOTES
+
+Provide a clean set of readable meeting notes.
+
+⸻
+
+Meeting Transcript:
+
+[PASTE TRANSCRIPT HERE]—
+
+Step 2 — Create the Program Artifacts
+
+Run this after the first output.Using the extracted meeting analysis, create the following program management artifacts.
+	1.	Decision Log
+Table columns:
+Decision ID
+Decision Description
+Decision Owner
+Date
+Status
+	2.	Risk Register
+Columns:
+Risk ID
+Description
+Impact
+Likelihood
+Mitigation
+Owner
+	3.	Action Tracker
+Columns:
+Task ID
+Action
+Owner
+Due Date
+Status
+	4.	Dependency Tracker
+Columns:
+Dependency
+Responsible Organization
+Impact
+Resolution Needed
+	5.	Follow-Up Meeting Agenda
+Create an agenda for the next meeting based on unresolved issues.—
+
+Step 3 — Leadership Brief Generator
+
+Use this if you need a quick executive update.Create a leadership briefing from the meeting outputs.
+
+Structure the briefing as:
+
+BLUF (Bottom Line Up Front)
+
+Key Developments
+
+Top Risks
+
+Decisions Required From Leadership
+
+Next Steps
+
+Limit the briefing to concise executive language appropriate for CIO leadership.—
+
+Step 4 — Brainstorming Prompt
+
+This helps you prepare for the next discussion.Act as a strategic advisor.
+
+Based on the meeting outputs:
+
+Identify potential blind spots or overlooked risks.
+
+Suggest strategic questions leadership should ask next.
+
+Recommend additional analysis that should be conducted.
+
+Identify opportunities to improve the program or solution discussed.—
+
+Tamar — How This Fits Your Work
+
+For your programs (BWC, ALPR, Mobile Fortify, Mobile Identify), this workflow produces the artifacts that program oversight bodies expect:
+
+• Action logs
+• Decision records
+• Risk registers
+• Governance documentation
+• Executive briefs
+
+These are exactly the types of deliverables needed when programs undergo security reviews, privacy review boards, or executive governance reviews.
+
+⸻
+
+Simple Example Workflow
+
+Teams meeting recorded
+      ↓
+Download transcript
+      ↓
+Run Prompt #1
+      ↓
+Run Prompt #2
+      ↓
+Send leadership brief
+      ↓
+Update project tracker
+
+Total time: 5–7 minutes instead of manual note-taking.
+
+⸻
+
+If you want, I can also show you something extremely useful for your role:
+
+“The AI Meeting Workflow that automatically converts transcripts into Jira tickets, risk registers, and weekly status reports.”
+
+It is the exact system many large consulting firms now use for program management.
