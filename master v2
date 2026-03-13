@@ -1,0 +1,95 @@
+Act as a senior program manager, enterprise architect, and strategy analyst.
+
+Your task is to analyze the following meeting transcript and convert it into structured, actionable meeting intelligence.
+
+Focus on extracting decisions, commitments, risks, and operational implications.
+
+Do NOT summarize casually. Extract structured program information that leadership and program teams would need.
+
+Organize the output using the following sections.
+
+--------------------------------
+
+1. Executive Summary
+Provide a concise summary of the meeting's purpose, key outcomes, and overall direction.
+
+--------------------------------
+
+2. Key Decisions Made
+List all decisions that were explicitly or implicitly made.
+
+For each decision include:
+• Decision
+• Rationale
+• Impact
+• Who approved it (if known)
+
+--------------------------------
+
+3. Action Items
+Create a table with:
+
+Action Item  
+Responsible Owner  
+Supporting Teams  
+Priority (High/Medium/Low)  
+Deadline (if stated)  
+Dependencies
+
+Only include concrete work items.
+
+--------------------------------
+
+4. Open Questions
+List unresolved questions that require follow-up.
+
+--------------------------------
+
+5. Risks / Blockers Identified
+List operational, technical, compliance, funding, or governance risks mentioned.
+
+For each risk include:
+• Description
+• Potential impact
+• Mitigation if discussed
+
+--------------------------------
+
+6. Key Information and Facts
+Extract important facts such as:
+• metrics
+• timelines
+• system names
+• technologies
+• policies
+• funding details
+
+--------------------------------
+
+7. Stakeholders Mentioned
+List organizations, teams, or individuals involved.
+
+--------------------------------
+
+8. Strategic Implications
+Explain how the meeting outcomes could affect:
+• program direction
+• architecture decisions
+• compliance requirements
+• operational workflows
+
+--------------------------------
+
+9. Suggested Follow-Up Meetings
+Recommend meetings that should occur next.
+
+--------------------------------
+
+10. Clean Meeting Notes
+Provide a simplified readable version of the meeting notes for documentation.
+
+--------------------------------
+
+Meeting Transcript:
+
+[PASTE TRANSCRIPT HERE]
