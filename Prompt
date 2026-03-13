@@ -1,0 +1,208 @@
+Tamar, the trick here is to stop thinking about “notes” and instead extract operational intelligence from the transcript.
+
+A good meeting extraction prompt should pull out the exact things that feed the system you just built:
+	•	Issues
+	•	Decisions
+	•	Milestones
+	•	Daily Signals
+	•	Action items
+
+So the prompt should produce output that you can copy directly into your Lists without rewriting.
+
+Below is a two-prompt system.
+	1.	Meeting Intelligence Extractor (turn transcript into structured information)
+	2.	Strategic Follow-Up Analyzer (generate questions, risks, and ideas)
+
+Together they replace traditional note taking.
+
+⸻
+
+Prompt 1 — Meeting Intelligence Extractor
+
+Use this immediately after pasting a transcript.
+
+⸻
+
+Prompt
+
+Act as a senior program manager and enterprise portfolio analyst.
+
+Analyze the meeting transcript below and extract the operational intelligence required to manage programs and brief leadership.
+
+Focus on identifying concrete signals, not summarizing the conversation.
+
+From the transcript, extract and organize the following categories.
+	1.	BLUF (Bottom Line Up Front)
+Provide a 1–2 sentence summary of the most important takeaway from the meeting.
+	2.	Key Operational Updates
+List major updates that affect program progress, timelines, or coordination.
+	3.	Action Items
+Identify tasks that someone must complete.
+For each action item provide:
+
+Owner
+Task description
+Expected outcome
+Any implied due date
+	4.	Issues / Risks
+Identify problems, blockers, dependencies, or concerns mentioned.
+
+For each issue include:
+
+Issue title
+Description
+Impact level (Low / Medium / High / Critical)
+Owner if mentioned
+Recommended status (Open / Monitoring / Blocked)
+	5.	Decisions Made
+List any decisions that were confirmed in the meeting.
+
+For each decision include:
+
+Decision statement
+Decision owner
+Impact on program
+	6.	Decisions Required
+Identify any decisions that were requested but not resolved.
+
+For each include:
+
+Decision statement
+Who must decide
+Why the decision matters
+	7.	Milestones / Important Dates
+Extract any dates, deadlines, or upcoming events mentioned.
+
+Include:
+
+Milestone name
+Program area if known
+Date mentioned
+	8.	Leadership Awareness Items
+Identify anything senior leadership would want to know even if it is not yet a problem.
+
+Examples include:
+
+policy implications
+interagency coordination
+funding dependencies
+security concerns
+	9.	Emerging Risks
+Identify potential risks implied in the discussion even if not stated explicitly.
+	10.	Key Quotes (Optional)
+Extract 2–3 quotes that capture important context or intent.
+
+Output the results in clear bullet points so they can be copied directly into:
+
+Daily Signal
+Issues
+Decisions
+Milestones tracking systems.
+
+Transcript:
+[PASTE TRANSCRIPT]
+
+⸻
+
+Prompt 2 — Strategic Follow-Up Analyzer
+
+Run this after the first prompt output.
+
+This is where the real value comes in.
+
+⸻
+
+Prompt
+
+Act as a senior strategy consultant and enterprise architect advising a federal technology portfolio lead.
+
+Using the extracted meeting intelligence below, perform a deeper analysis and provide guidance to strengthen program execution.
+
+Produce the following outputs.
+	1.	Clarifying Questions
+Generate questions that should be asked in follow-up conversations to resolve ambiguity, reduce risk, or improve planning.
+	2.	Potential Blind Spots
+Identify risks, dependencies, or assumptions that may not have been fully addressed in the meeting.
+	3.	Strategic Next Steps
+Recommend the most valuable next actions Tamar should take as the program lead.
+
+Prioritize actions that improve:
+
+decision clarity
+risk reduction
+interagency coordination
+leadership awareness
+	4.	Research Insights
+Based on similar federal technology programs, suggest relevant best practices or lessons learned that could apply to this situation.
+	5.	Leadership Brief Draft
+Write a concise daily briefing update Tamar could send to leadership summarizing the meeting outcomes.
+	6.	Issue / Decision / Milestone Candidates
+Identify items that should likely be added to the Issues, Decisions, or Milestones trackers.
+
+Use concise language suitable for operational tracking.
+
+Meeting Intelligence:
+[PASTE OUTPUT FROM PROMPT 1]
+
+⸻
+
+Optional Prompt 3 — Question Generator (great before your next meeting)
+
+⸻
+
+Act as a program strategist preparing Tamar for a follow-up meeting.
+
+Based on the meeting analysis below, generate:
+
+• the 5 most important questions Tamar should ask next
+• the 3 biggest risks that require clarification
+• the 3 decisions that should be pushed toward resolution
+• the 3 insights Tamar could contribute that would add strategic value to the discussion
+
+Frame the questions in a way that demonstrates leadership, clarity, and operational awareness.
+
+Meeting Context:
+[PASTE OUTPUT]
+
+⸻
+
+Why this works for your workflow
+
+Instead of writing notes, you now do:
+
+Transcript
+     ↓
+Meeting Intelligence Extractor
+     ↓
+Structured signals
+     ↓
+Strategic Follow-Up Analyzer
+
+And those signals plug directly into your lists:
+
+Daily Signal
+Issues
+Decisions
+Milestones
+
+You stop trying to write the meeting, and instead extract the intelligence.
+
+⸻
+
+Pro tip for ADHD workflows
+
+If you struggle during meetings, do this:
+
+During the meeting only capture three things:
+
+people
+numbers
+decisions
+
+Then let the prompt reconstruct the rest.
+
+Your brain focuses on listening instead of formatting notes.
+
+⸻
+
+If you’d like, I can also give you a “super prompt” version of this that turns transcripts into a full portfolio briefing pack (Daily Brief, Issue entries, Decision entries, Milestones) ready to drop directly into the system you just built.
